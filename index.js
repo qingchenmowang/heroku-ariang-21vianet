@@ -40,7 +40,7 @@ app.get('/', (req, res) => {
 <input id="secret" type="text">
 <button id="panel">Go to panel</button>
 <button id="downloads">View downloaded files</button><br>
-Partial Copyright © <a href="https://qxin.info">xinxin8816</a>.
+Partial Copyright © <a href="https://qcxitong.top">轻尘丶莫莣</a>.
 <script>
 panel.onclick=function(){
 	open('/ariang/#!/settings/rpc/set/wss/'+location.hostname+'/443/jsonrpc/'+btoa(secret.value),'_blank')
